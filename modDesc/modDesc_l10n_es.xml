@@ -45,5 +45,12 @@
         <text name="TDprotectionFull"			text="Completa"/>
         <text name="TDprotectionFullpainted"	text="Completa pintados"/>
         <text name="TDnoprotection"				text="Sin Proteccion"/>
+        <text name="config_TDLicensePaint"		text="Placa pintadas"/>
+        <text name="configuration_TDHitch"		text="Enganche de remolque"/>
+        <text name="config_TDHitchPaint"		text="pintadas"/>
+        <text name="config_TDHitch"				text="Defecto"/>
+        <text name="config_TDHitchDetail"		text="Detalle pintadas"/>
+        <text name="config_TDrailPaint"			text="pintadas Carril"/>
+        <text name="config_TDraildetail"		text="Detalle pintadas Carril"/>
 	</texts>
 </l10n>

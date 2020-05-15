@@ -45,5 +45,12 @@
         <text name="TDprotectionFull"			text="Voll"/>
         <text name="TDprotectionFullpainted"	text="Voll Bemalte"/>
         <text name="TDnoprotection"				text="Keine Schutz"/>
+        <text name="config_TDLicensePaint"		text="Nummernschild Bemalte"/>
+        <text name="configuration_TDHitch"		text="Anhängerkupplung"/>
+        <text name="config_TDHitchPaint"		text="Gemalte"/>
+        <text name="config_TDHitch"				text="Standard"/>
+        <text name="config_TDHitchDetail"		text="Detail Bemalte"/>
+        <text name="config_TDrailPaint"			text="Gemalte Schiene"/>
+        <text name="config_TDraildetail"		text="Detail Bemalte Schiene"/>
 	</texts>
 </l10n>

@@ -45,5 +45,12 @@
         <text name="TDprotectionFull"			text="Pełny"/>
         <text name="TDprotectionFullpainted"	text="Pełny Namalowany"/>
         <text name="TDnoprotection"				text="Bez Ochrona"/>
+        <text name="config_TDLicensePaint"		text="Tablica rejestracyjna błotniki"/>
+        <text name="configuration_TDHitch"		text="Hak holowniczy"/>
+        <text name="config_TDHitchPaint"		text="błotniki"/>
+        <text name="config_TDHitch"				text="Domyślna"/>
+        <text name="config_TDHitchDetail"		text="Szczegół błotniki"/>
+        <text name="config_TDrailPaint"			text="błotniki Szyna"/>
+        <text name="config_TDraildetail"		text="Szczegół błotniki Szyna"/>
 	</texts>
 </l10n>

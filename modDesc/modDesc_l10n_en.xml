@@ -45,5 +45,12 @@
         <text name="TDprotectionFull"			text="Full"/>
         <text name="TDprotectionFullpainted"	text="Full Painted"/>
         <text name="TDnoprotection"				text="No Protection"/>
+        <text name="config_TDLicensePaint"		text="License Plate Painted"/>
+        <text name="configuration_TDHitch"		text="Trailer Hitch"/>
+        <text name="config_TDHitchPaint"		text="Painted"/>
+        <text name="config_TDHitch"				text="Default"/>
+        <text name="config_TDHitchDetail"		text="Detail Painted"/>
+        <text name="config_TDrailPaint"			text="Painted Rail"/>
+        <text name="config_TDraildetail"		text="Detail Painted Rail"/>
 	</texts>
 </l10n>

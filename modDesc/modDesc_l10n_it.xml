@@ -45,5 +45,12 @@
         <text name="TDprotectionFull"			text="Piena"/>
         <text name="TDprotectionFullpainted"	text="Piena Dipinta"/>
         <text name="TDnoprotection"				text="Senza Protezione"/>
+        <text name="config_TDLicensePaint"		text="Targa Dipinta"/>
+        <text name="configuration_TDHitch"		text="Gancio traino"/>
+        <text name="config_TDHitchPaint"		text="Dipinta"/>
+        <text name="config_TDHitch"				text="Predefinita"/>
+        <text name="config_TDHitchDetail"		text="Dettaglio Dipinta"/>
+        <text name="config_TDrailPaint"			text="Dipinta Rotaia"/>
+        <text name="config_TDraildetail"		text="Dettaglio Dipinta Rotaia"/>
 	</texts>
 </l10n>

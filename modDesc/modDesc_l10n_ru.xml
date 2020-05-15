@@ -45,5 +45,12 @@
         <text name="TDprotectionFull"			text="Полный"/>
         <text name="TDprotectionFullpainted"	text="Полный покрашенный"/>
         <text name="TDnoprotection"				text="Без защита"/>
+        <text name="config_TDLicensePaint"		text="Номерной знак покрашенный"/>
+        <text name="configuration_TDHitch"		text="Прицепное устройство"/>
+        <text name="config_TDHitchPaint"		text="покрашенный"/>
+        <text name="config_TDHitch"				text="По умолчанию"/>
+        <text name="config_TDHitchDetail"		text="подробность покрашенный"/>
+        <text name="config_TDrailPaint"			text="покрашенный рельсовый"/>
+        <text name="config_TDraildetail"		text="подробность покрашенный рельсовый"/>
 	</texts>
 </l10n>
