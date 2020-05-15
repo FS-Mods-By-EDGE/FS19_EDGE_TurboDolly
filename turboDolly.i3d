@@ -20,26 +20,33 @@
 
 
   <Materials>
-    <Material name="krampeTurbo_mat" materialId="6" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="2"/>
-      <Glossmap fileId="3"/>
-      <CustomParameter name="RDT" value="1 1 0 0"/>
-      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
-      <CustomParameter name="colorMat0" value="0.639 0.01 0.01 1"/>
-      <CustomParameter name="colorMat1" value="0.04 0.04 0.04 1"/>
-      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
-      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
-      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
-      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
-      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
-      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    <Material name="krampe_mat" materialId="5">
     </Material>
     <Material name="krampeDecals_mat" materialId="4">
       <Texture fileId="11"/>
       <Normalmap fileId="12"/>
       <Glossmap fileId="13"/>
     </Material>
-    <Material name="krampe_mat" materialId="5">
+    <Material name="decalsArray_mat" materialId="7" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="krampeTurbo_mat" materialId="6" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="1 0.01 0.01 1"/>
+      <CustomParameter name="colorMat1" value="0.04 0.04 0.04 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="0.04 0.04 0.04 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
     <Material name="hoses_mat" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
       <Normalmap fileId="9"/>
@@ -54,13 +61,6 @@
       <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
-    </Material>
-    <Material name="decalsArray_mat" materialId="7" customShaderId="4" customShaderVariation="Decal">
-      <Texture fileId="14"/>
-      <Normalmap fileId="15"/>
-      <Glossmap fileId="3"/>
-      <CustomParameter name="RDT" value="1 1 0 0"/>
-      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
     </Material>
   </Materials>
 
@@ -78,8 +78,8 @@
         <TransformGroup name="attachable" nodeId="55">
           <TransformGroup name="attacherJoint" translation="8.9954e-09 0.65 2.23079" rotation="0 90 0" nodeId="56"/>
           <TransformGroup name="semitrailerAttacherJoint" translation="-6.65778e-08 1.31 -1" rotation="0 90 0" nodeId="57">
-            <Shape shapeId="3" name="semitrailerAttacher" visibility="false" clipDistance="300" nodeId="58" materialIds="6" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="4" name="semitrailerAttacherDetail" clipDistance="300" nodeId="59" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="semitrailerAttacher" clipDistance="300" nodeId="58" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="semitrailerAttacherDetail" visibility="false" clipDistance="300" nodeId="59" materialIds="6" castsShadows="true" receiveShadows="true"/>
             <Shape shapeId="5" name="semitrailerAttacherPainted" visibility="false" clipDistance="300" nodeId="60" materialIds="6" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
           <Shape shapeId="6" name="supportArmRot" translation="0.31 0.584 0.683" rotation="0 -17 0" clipDistance="300" nodeId="61" materialIds="6" castsShadows="true" receiveShadows="true">
@@ -134,23 +134,23 @@
           </TransformGroup>
         </TransformGroup>
         <TransformGroup name="wheels" nodeId="95">
-          <TransformGroup name="wheelLeft" translation="1 0.56 -1.43" nodeId="96">
+          <TransformGroup name="wheelLeft" translation="1.02 0.56 -1.43" scale="0.95 1 1" nodeId="96">
             <TransformGroup name="wheelLeftHub" nodeId="97"/>
-            <Shape shapeId="16" name="suspension" clipDistance="300" nodeId="98" materialIds="6" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
-          <TransformGroup name="wheelRight" translation="-1 0.56 -1.43" nodeId="99">
-            <TransformGroup name="wheelRightHub" nodeId="100"/>
+          <TransformGroup name="wheelRight" translation="-1 0.56 -1.43" nodeId="98">
+            <TransformGroup name="wheelRightHub" nodeId="99"/>
           </TransformGroup>
-          <TransformGroup name="fenders" nodeId="101">
-            <Shape shapeId="17" name="fenderArmsFront" clipDistance="300" nodeId="102" materialIds="6" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="18" name="fendersFront" clipDistance="300" nodeId="103" materialIds="6" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="19" name="fendersFrontPainted" clipDistance="300" nodeId="104" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="fenders" nodeId="100">
+            <Shape shapeId="16" name="fenderArmsFront" clipDistance="300" nodeId="101" materialIds="6" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="17" name="fendersFront" clipDistance="300" nodeId="102" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="18" name="fendersFrontPainted" visibility="false" clipDistance="300" nodeId="103" materialIds="6" castsShadows="true" receiveShadows="true"/>
             </Shape>
-            <Shape shapeId="20" name="fenderArmsBack" clipDistance="300" nodeId="105" materialIds="6" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="21" name="fendersBack" clipDistance="300" nodeId="106" materialIds="6" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="22" name="fendersBackPainted" clipDistance="300" nodeId="107" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="19" name="fenderArmsBack" clipDistance="300" nodeId="104" materialIds="6" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="20" name="fendersBack" clipDistance="300" nodeId="105" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="21" name="fendersBackPainted" visibility="false" clipDistance="300" nodeId="106" materialIds="6" castsShadows="true" receiveShadows="true"/>
             </Shape>
           </TransformGroup>
+          <Shape shapeId="22" name="suspension" translation="1 0.56 -1.43" clipDistance="300" nodeId="107" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
         <TransformGroup name="lights" nodeId="108">
           <TransformGroup name="sharedLights" nodeId="109">
@@ -171,13 +171,13 @@
             <Light name="turnLightRightBack" translation="-0.98 0.77 -2.16" rotation="-8 10 0" clipDistance="75" nodeId="121" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="4" coneAngle="120" dropOff="3"/>
           </TransformGroup>
           <TransformGroup name="reverseLights" nodeId="122">
-            <Light name="reverseLight" translation="0 0.77 -2.2" rotation="-15 0 0" clipDistance="75" nodeId="123" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5" coneAngle="150" dropOff="3"/>
+            <Light name="reverseLight" translation="0 0.77 -2.2" rotation="-15 0 0" clipDistance="75" nodeId="123" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="150" dropOff="3"/>
           </TransformGroup>
           <TransformGroup name="sidemarkers" translation="0 1.04171 -0.776" scale="1.05 1 1" nodeId="124">
-            <TransformGroup name="sideMarker_01" translation="1.215 -4.03005e-09 0" rotation="0 -0 -90" scale="0.5 0.5 0.5" nodeId="125"/>
-            <TransformGroup name="sideMarker_02" translation="-1.215 0 0" rotation="0 -0 90" scale="0.5 0.5 0.5" nodeId="126"/>
-            <TransformGroup name="sideMarker_03" translation="1.215 -0.113 -1.326" rotation="0 -0 -90" scale="0.5 0.5 0.5" nodeId="127"/>
-            <TransformGroup name="sideMarker_02" translation="-1.215 -0.113 -1.326" rotation="0 -0 90" scale="0.5 0.5 0.5" nodeId="128"/>
+            <TransformGroup name="sideMarker_01" translation="1.215 -4.03005e-09 0" rotation="0 -0 -90" scale="0.65 0.65 0.65" nodeId="125"/>
+            <TransformGroup name="sideMarker_02" translation="-1.215 0 0" rotation="0 -0 90" scale="0.65 0.65 0.65" nodeId="126"/>
+            <TransformGroup name="sideMarker_03" translation="1.215 -0.113 -1.326" rotation="0 -0 -90" scale="0.65 0.65 0.65" nodeId="127"/>
+            <TransformGroup name="sideMarker_02" translation="-1.215 -0.113 -1.326" rotation="0 -0 90" scale="0.65 0.65 0.65" nodeId="128"/>
           </TransformGroup>
           <TransformGroup name="Sidelights" translation="0 0.388 0" clipDistance="400" nodeId="129">
             <TransformGroup name="leftSide" translation="0 0.638 0" nodeId="130">
@@ -185,7 +185,7 @@
               <Light name="sideLightsL01" translation="0.58608 -0.0549741 0.162222" rotation="-140.239 71.7 31.1" scale="0.75 0.75 0.75" clipDistance="300" nodeId="132" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
             </TransformGroup>
             <TransformGroup name="rightSide" translation="0 0.638 0" nodeId="133">
-              <TransformGroup name="sideMarker_WhiteR01" translation="-0.55 -0.055 0.152" rotation="64.0516 70.6311 152.096" scale="0.75 0.75 0.75" nodeId="134"/>
+              <TransformGroup name="sideMarker_WhiteR01" translation="-0.55 -0.055 0.152" rotation="64.0516 70.6311 152.096" scale="0.65 0.65 0.65" nodeId="134"/>
               <Light name="sideLightsR01" translation="-0.585792 -0.0546135 0.163183" rotation="144.052 70.6311 152.096" scale="0.75 0.75 0.75" clipDistance="300" nodeId="135" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
             </TransformGroup>
           </TransformGroup>
@@ -224,6 +224,12 @@
       <TransformGroup name="skinnedMeshes" nodeId="159">
         <TransformGroup name="baseBone" nodeId="160"/>
         <Shape shapeId="43" name="turboDolly_hoses" nodeId="161" materialIds="8" castsShadows="true" receiveShadows="true" skinBindNodeIds="65 160"/>
+      </TransformGroup>
+      <TransformGroup name="remoteControl" translation="-9.99201e-16 0.52062 1.92958" nodeId="236">
+        <TransformGroup name="exitPoint" translation="0.985512 -0.52062 -3.07826" nodeId="280"/>
+        <TransformGroup name="cameraRot" translation="9.99201e-16 0.404188 -3.07826" rotation="156 -0 180" nodeId="278">
+          <Camera name="camera" translation="-5.29396e-25 2.55795e-15 16" rotation="3.18055e-15 0 3.53113e-31" nodeId="279" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
+        </TransformGroup>
       </TransformGroup>
     </Shape>
   </Scene>
