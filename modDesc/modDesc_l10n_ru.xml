@@ -3,8 +3,9 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboLight"		text="Прицеп имеет заднюю часть сцепки, чтобы можно было сделать автопоезд."/>
-        <text name="name_turboLight" 			text="Турбо Лайт"/>
+		<text name="function_turboKipper"		text="Длинная тележка для любого полуприцепа, чтобы прицепить их к трактору или сделать возможным автопоезд."/>
+        <text name="name_turboKipper" 			text="Турбо Киппер"/>
+        <text name="name_turboTrailers" 		text="Турбо Прицепы"/>
         <text name="color_EDGEGOLD" 			text="EDGE ЗОЛОТО"/>
         <text name="color_EDGESILVER" 			text="EDGE СЕРЕБРЯНЫЙ"/>
         <text name="color_DARKGREY"				text="ТЕМНО-СЕРЫЙ"/>
@@ -26,13 +27,23 @@
         <text name="configuration_wideXBIB"		text="Широкий грузовой"/>
         <text name="configuration_megaXbib"		text="Внедорожный"/>
         <text name="configuration_Offroad"		text="Внедорожный"/>
-        <text name="config_TLlights"			text="огни"/>
-        <text name="config_TLbeacon"			text="Маяковые огни"/>
-        <text name="config_TLwork"				text="Рабочие фары"/>
-        <text name="config_TLnoLight"			text="Нет света"/>
-        <text name="config_TLbeaconWork"		text="Маяковые огни & Рабочие фары"/>
         <text name="config_TLdecalWhite"		text="белый Переводные картинки"/>
         <text name="config_TLdecalBlack"		text="черный Переводные картинки"/>
-        <text name="config_TLdecalRed"		text="красный Переводные картинки"/>
+        <text name="config_TLdecalRed"			text="красный Переводные картинки"/>
+        <text name="config_TLnodecal"			text="Нет Переводные картинки"/>
+        <text name="config_TDLicense"			text="Номерной знак"/>
+        <text name="config_TDLicensePlate"		text="С номерным знаком"/>
+        <text name="config_TDnoLicensePlate"	text="Без номерного знака"/>
+        <text name="configuration_Fenders" 		text="Брызговики"/>
+        <text name="config_Fenders" 			text="Крылья по умолчанию"/>
+        <text name="config_PaintedFenders" 		text="Окрашенные крылья"/>
+        <text name="config_PaintedFrontFenders"	text="Окрашенные передние крылья"/>
+        <text name="config_PaintedBackFenders" 	text="Окрашенные задние крылья"/>
+        <text name="config_TDprotection"		text="защита"/>
+        <text name="TDprotectionHalf"			text="половина"/>
+        <text name="TDprotectionHalfpainted"	text="половина покрашенный"/>
+        <text name="TDprotectionFull"			text="Полный"/>
+        <text name="TDprotectionFullpainted"	text="Полный покрашенный"/>
+        <text name="TDnoprotection"				text="Без защита"/>
 	</texts>
 </l10n>

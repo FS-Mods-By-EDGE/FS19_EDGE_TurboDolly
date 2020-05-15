@@ -4,7 +4,7 @@
     <storeData>
         <name>$l10n_name_turboKipper</name>
         <specs>
-            <combination>$l10n_name_turboLight</combination>
+            <combination>$l10n_name_turboTrailers</combination>
         </specs>
         <functions>
             <function>$l10n_function_turboKipper</function>
@@ -24,7 +24,7 @@
         <filename>turboDolly.i3d</filename>
         <size width="3.5" length="5" />
         <components>
-            <component centerOfMass="0 0.6 -0.8" solverIterationCount="10" mass="3500" /> <!-- original 1980 -->
+            <component centerOfMass="0 0.6 -0.8" solverIterationCount="10" mass="2899" />
         </components>
         <schemaOverlay attacherJointPosition="0 0">
             <default name="DEFAULT_IMPLEMENT"/>
@@ -33,6 +33,166 @@
     </base>
     <wheels>
         <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_TwinRadial" price="0" brand="TRELLEBORG">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_Radial" price="450" brand="TRELLEBORG">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_wideRadial" price="550" brand="TRELLEBORG">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_CARGOXBIB" price="550" brand="MICHELIN">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_wideXBIB" price="650" brand="MICHELIN">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_CXBheavyduty" price="550" brand="MICHELIN">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_megaXbib" price="550" brand="MICHELIN">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_TwinForestry" price="450" brand="TRELLEBORG">
+                <wheels>
+                    <wheel filename="wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_Offroad" price="250" brand="NOKIAN">
+                <wheels>
+                    <wheel filename="wheels/TRI2_540_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="wheels/TRI2_540_65R28.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_rough" price="550" brand="TRELLEBORG">
+                <wheels>
+                    <wheel filename="wheels/SK800_12_R16_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                    </wheel>
+                    <wheel filename="wheels/SK800_12_R16_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="1000" brand="MICHELIN">
+                <wheels>
+                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <wheelChock parkingNode="wheelChockLeft" />
+                        <wheelChock parkingNode="wheelChockRight" isInverted="true" />
+                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.05" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
+                        <innerRim offset="0.04" />
+                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.05" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                        </additionalWheel>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="LIZARD">
                 <wheels>
                     <wheel filename="$data/shared/wheels/lizard/implement/385_65R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
@@ -51,7 +211,7 @@
 				<objectChange node="wheelLeftHub" translationActive="-0.005 0 0" />
 				<objectChange node="wheelRightHub" translationActive="0.005 0 0" />
             </wheelConfiguration>
-            <wheelConfiguration name="$l10n_configuration_valueDefault" price="500" brand="NOKIAN">
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="200" brand="NOKIAN">
                 <wheels>
                     <wheel filename="$data/shared/wheels/nokian/TRI2/400_80R24.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50" />
@@ -86,14 +246,11 @@
 				<objectChange node="wheelRightHub" translationActive="-0.045 0 0" />
             </wheelConfiguration>
         </wheelConfigurations>
-
-        <rimColor material="0">SHARED_GREY2</rimColor>
-
         <hubs>
-            <color0 useBaseColor="true" />
+            <color0 useBaseColor="true"/>
             <color1>SHARED_GREY5</color1>
-            <hub linkNode="wheelLeftHub"  filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true"  scale="0.333 0.333 0.333" />
-            <hub linkNode="wheelRightHub" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.333 0.333 0.333" />
+            <hub linkNode="wheelLeftHub" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
+            <hub linkNode="wheelRightHub" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
         </hubs>
     </wheels>
 
@@ -109,7 +266,6 @@
         <dynamicallyLoadedPart node="1|2" linkNode="hoseAirYellow" filename="$data/shared/connectionHoses/connectors.i3d" />
         <dynamicallyLoadedPart node="1|1" linkNode="hoseElectric" filename="$data/shared/connectionHoses/connectors.i3d" />
     </dynamicallyLoadedParts>
-
     <attachable>
         <inputAttacherJoints>
             <inputAttacherJoint node="attacherJoint" jointType="trailerLow" attacherHeight="0.65" />
@@ -125,6 +281,54 @@
         <sounds>
             <attach template="ATTACH_01" linkNode="0>" />
         </sounds>
+        <attacherJointConfigurations title="$l10n_config_TDprotection">
+			<attacherJointConfiguration name="$l10n_TDprotectionHalf">
+				<objectChange node="protectionPlateHalf" visibilityActive="true"/>
+				<objectChange node="protectionPlateHalfPainted" visibilityActive="false"/>
+				<objectChange node="screwDecals02" visibilityActive="true"/>
+				<objectChange node="screwDecals03" visibilityActive="false"/>
+				<objectChange node="krampe_licensePlate" visibilityActive="true"/>
+				<objectChange node="krampe_licensePlatePainted" visibilityActive="false"/>
+			</attacherJointConfiguration>
+			<attacherJointConfiguration name="$l10n_TDprotectionHalfpainted">
+				<objectChange node="protectionPlateHalf" visibilityActive="false"/>
+				<objectChange node="protectionPlateHalfPainted" visibilityActive="true"/>
+				<objectChange node="screwDecals02" visibilityActive="true"/>
+				<objectChange node="screwDecals03" visibilityActive="false"/>
+				<objectChange node="krampe_licensePlate" visibilityActive="false"/>
+				<objectChange node="krampe_licensePlatePainted" visibilityActive="true"/>
+			</attacherJointConfiguration>
+			<attacherJointConfiguration name="$l10n_TDprotectionFull">
+				<objectChange node="protectionPlateHalf" visibilityActive="true"/>
+				<objectChange node="protectionPlateHalfPainted" visibilityActive="false"/>
+				<objectChange node="screwDecals02" visibilityActive="true"/>
+				<objectChange node="screwDecals03" visibilityActive="true"/>
+				<objectChange node="krampe_licensePlate" visibilityActive="true"/>
+				<objectChange node="krampe_licensePlatePainted" visibilityActive="false"/>
+				<objectChange node="protectionPlateFull" visibilityActive="true"/>
+				<objectChange node="protectionPlateFullPainted" visibilityActive="false"/>
+			</attacherJointConfiguration>
+			<attacherJointConfiguration name="$l10n_TDprotectionFullpainted">
+				<objectChange node="protectionPlateHalf" visibilityActive="false"/>
+				<objectChange node="protectionPlateHalfPainted" visibilityActive="true"/>
+				<objectChange node="screwDecals02" visibilityActive="true"/>
+				<objectChange node="screwDecals03" visibilityActive="true"/>
+				<objectChange node="krampe_licensePlate" visibilityActive="false"/>
+				<objectChange node="krampe_licensePlatePainted" visibilityActive="true"/>
+				<objectChange node="protectionPlateFull" visibilityActive="false"/>
+				<objectChange node="protectionPlateFullPainted" visibilityActive="true"/>
+			</attacherJointConfiguration>
+			<attacherJointConfiguration name="$l10n_TDnoprotection">
+				<objectChange node="protectionPlateHalf" visibilityActive="false"/>
+				<objectChange node="protectionPlateHalfPainted" visibilityActive="false"/>
+				<objectChange node="screwDecals02" visibilityActive="false"/>
+				<objectChange node="screwDecals03" visibilityActive="false"/>
+				<objectChange node="krampe_licensePlate" visibilityActive="true"/>
+				<objectChange node="krampe_licensePlatePainted" visibilityActive="false"/>
+				<objectChange node="protectionPlateFull" visibilityActive="false"/>
+				<objectChange node="protectionPlateFullPainted" visibilityActive="false"/>
+			</attacherJointConfiguration>
+		</attacherJointConfigurations>
     </attacherJoints>
 
     <connectionHoses>
@@ -192,33 +396,110 @@
     </foliageBending>
 
     <baseMaterial>
-        <material name="turboDolly_mat" baseNode="turboDolly_vis">
-            <shaderParameter name="colorMat0" value="turboDolly_RED1"/>
+        <material name="krampeTurbo_mat" baseNode="turboDolly_vis">
+            <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
+            <shaderParameter name="colorMat1" value="SHARED_BLACK2"/>
         </material>
     </baseMaterial>
-
-    <baseMaterialConfigurations price="500">
-        <baseMaterialConfiguration color="ANNABURGER_RED1"/>
-        <baseMaterialConfiguration color="ANNABURGER_GREY1" />
-        <material name="turboDolly_mat" shaderParameter="colorMat0" />
+    <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLD" color="0.776 0.667 0.341 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVER" color="0.647 0.667 0.682 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_CHROME" color="SHARED_WHITE2" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_color_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_ORANGECHROME" color="0.932 0.119 0.000 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_GREENCHROME" color="0.000 0.170 0.001 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_BLUECHROME" color="0.062 0.251 0.612 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_REDCHROME" color="0.673 0.002 0.000 1" material="2"/>
+        <material name="krampeTurbo_mat" shaderParameter="colorMat0"/>
     </baseMaterialConfigurations>
-
-	<designConfigurations>
-		<designConfiguration name="$l10n_configuration_valueDefault"/>
-		<designConfiguration name="$l10n_configuration_valueProtectionPlate" price="500">
-			<objectChange node="turboDolly_protection" visibilityActive="true" visibilityInactive="false" />
-		</designConfiguration>
-	</designConfigurations>
-
-	<vehicleTypeConfigurations>
-		<vehicleTypeConfiguration name="$l10n_configuration_valueWithoutLicensePlate" vehicleType="dolly" />
-		<vehicleTypeConfiguration name="$l10n_configuration_valueWithLicensePlate" vehicleType="dolly">
-			<objectChange node="turboDolly_licensePlate" visibilityActive="true" visibilityInactive="false" />
-			<objectChange node="rearPlateNumberLight_01_left" visibilityActive="true" visibilityInactive="false" />
-			<objectChange node="rearPlateNumberLight_01_right" visibilityActive="true" visibilityInactive="false" />
-		</vehicleTypeConfiguration>
-	</vehicleTypeConfigurations>
-
+    <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="12">
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLD" color="0.776 0.667 0.341 3" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVER" color="0.647 0.667 0.682 9" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_CHROME" color="SHARED_WHITE2" material="2"/>
+        <designMaterialConfiguration name="$l10n_color_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_color_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_color_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_ORANGECHROME" color="0.932 0.119 0.000 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_GREENCHROME" color="0.000 0.170 0.001 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_BLUECHROME" color="0.062 0.251 0.612 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_REDCHROME" color="0.673 0.002 0.000 1" material="3"/>
+        <material name="krampeTurbo_mat" shaderParameter="colorMat1"/>
+    </designMaterialConfigurations>
+    <rimColorConfigurations useDefaultColors="true" price="300" defaultColorIndex="12">
+        <rimColorConfiguration name="$l10n_color_EDGEGOLD" color="0.776 0.667 0.341 3" material="3"/>
+        <rimColorConfiguration name="$l10n_color_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <rimColorConfiguration name="$l10n_color_EDGESILVER" color="0.647 0.667 0.682 9" material="3"/>
+        <rimColorConfiguration name="$l10n_color_CHROME" color="SHARED_WHITE2" material="2"/>
+        <rimColorConfiguration name="$l10n_color_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <rimColorConfiguration name="$l10n_color_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <rimColorConfiguration name="$l10n_color_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_ORANGECHROME" color="0.932 0.119 0.000 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_GREENCHROME" color="0.000 0.170 0.001 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_BLUECHROME" color="0.062 0.251 0.612 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_REDCHROME" color="0.673 0.002 0.000 1" material="3"/>
+    </rimColorConfigurations>
+    <vehicleTypeConfigurations title="$l10n_config_TDLicense">
+        <vehicleTypeConfiguration name="$l10n_config_TDLicensePlate" price="0" vehicleType="dolly">
+            <objectChange node="krampe_licensePlateDecal" visibilityActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_TDnoLicensePlate" price="50" vehicleType="dolly">
+			<objectChange node="krampe_licensePlateDecal" visibilityActive="true" visibilityInactive="false" />
+        </vehicleTypeConfiguration>
+    </vehicleTypeConfigurations>
+    <designConfigurations>
+        <designConfiguration name="$l10n_config_TDdecalWhite" price="0">
+            <objectChange node="krampeDecals" visibilityActive="true"/>
+            <objectChange node="krampeDecalsBlack" visibilityActive="false"/>
+            <objectChange node="krampeDecalsRed" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_TDdecalBlack" price="100">
+            <objectChange node="krampeDecals" visibilityActive="false"/>
+            <objectChange node="krampeDecalsBlack" visibilityActive="true"/>
+            <objectChange node="krampeDecalsRed" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_TDdecalRed" price="100">
+            <objectChange node="krampeDecals" visibilityActive="false"/>
+            <objectChange node="krampeDecalsBlack" visibilityActive="false"/>
+            <objectChange node="krampeDecalsRed" visibilityActive="true"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_TDnodecal" price="200">
+            <objectChange node="krampeDecals" visibilityActive="false"/>
+            <objectChange node="krampeDecalsBlack" visibilityActive="false"/>
+            <objectChange node="krampeDecalsRed" visibilityActive="false"/>
+        </designConfiguration>
+    </designConfigurations>
+    <fillUnit>
+        <fillUnitConfigurations title="$l10n_configuration_Fenders">
+            <fillUnitConfiguration name="$l10n_config_Fenders" >
+				<objectChange node="fendersFront" visibilityActive="true" />
+				<objectChange node="fendersFrontPainted" visibilityActive="false" />
+				<objectChange node="fendersBack" visibilityActive="true" />
+				<objectChange node="fendersBackPainted" visibilityActive="false" />
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_config_PaintedFenders" >
+				<objectChange node="fendersFront" visibilityActive="false" />
+				<objectChange node="fendersFrontPainted" visibilityActive="true" />
+				<objectChange node="fendersBack" visibilityActive="false" />
+				<objectChange node="fendersBackPainted" visibilityActive="true" />
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_config_PaintedFrontFenders" >
+				<objectChange node="fendersFront" visibilityActive="false" />
+				<objectChange node="fendersFrontPainted" visibilityActive="true" />
+				<objectChange node="fendersBack" visibilityActive="true" />
+				<objectChange node="fendersBackPainted" visibilityActive="false" />
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_config_PaintedBackFenders" >
+				<objectChange node="fendersFront" visibilityActive="true" />
+				<objectChange node="fendersFrontPainted" visibilityActive="false" />
+				<objectChange node="fendersBack" visibilityActive="false" />
+				<objectChange node="fendersBackPainted" visibilityActive="true" />
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
     <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
 

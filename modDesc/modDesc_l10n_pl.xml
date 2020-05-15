@@ -3,8 +3,9 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboLight"		text="Przyczepa ma zaczep z tyłu, aby umożliwić wykonanie pociągu drogowego."/>
-        <text name="name_turboLight" 			text="światło turbo"/>
+		<text name="function_turboKipper"		text="Długi wózek dla każdej naczepy, do zaczepienia jej do ciągnika lub umożliwienia wykonania pociągu drogowego."/>
+        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboTrailers" 		text="Przyczepy Turbo"/>
         <text name="color_EDGEGOLD" 			text="EDGE ZŁOTO"/>
         <text name="color_EDGESILVER" 			text="EDGE SREBRO"/>
         <text name="color_DARKGREY"				text="CIEMNO SZARY"/>
@@ -26,13 +27,23 @@
         <text name="configuration_wideXBIB"		text="Szeroki Ładunek"/>
         <text name="configuration_megaXbib"		text="Poza drogą"/>
         <text name="configuration_Offroad"		text="Poza drogą"/>
-        <text name="config_TLlights"			text="Światła"/>
-        <text name="config_TLbeacon"			text="Światła ostrzegawcze"/>
-        <text name="config_TLwork"				text="Światła robocze"/>
-        <text name="config_TLnoLight"			text="Bez świateł"/>
-        <text name="config_TLbeaconWork"		text="Ostrzegawcze & Światła robocze"/>
         <text name="config_TLdecalWhite"		text="Biały Piktogramy"/>
         <text name="config_TLdecalBlack"		text="Czarny Piktogramy"/>
-        <text name="config_TLdecalRed"		text="Czerwony Piktogramy"/>
+        <text name="config_TLdecalRed"			text="Czerwony Piktogramy"/>
+        <text name="config_TLnodecal"			text="Bez Piktogramy"/>
+        <text name="config_TDLicense"			text="Tablica rejestracyjna"/>
+        <text name="config_TDLicensePlate"		text="Z tablicą rejestracyjną"/>
+        <text name="config_TDnoLicensePlate"	text="Bez tablicy rejestracyjnej"/>
+        <text name="configuration_Fenders" 		text="Błotniki"/>
+        <text name="config_Fenders" 			text="Domyślne błotniki"/>
+        <text name="config_PaintedFenders" 		text="Malowane błotniki"/>
+        <text name="config_PaintedFrontFenders"	text="Malowane przednie błotniki"/>
+        <text name="config_PaintedBackFenders" 	text="Malowane błotniki"/>
+        <text name="config_TDprotection"		text="Ochrona"/>
+        <text name="TDprotectionHalf"			text="Pół"/>
+        <text name="TDprotectionHalfpainted"	text="Pół Namalowany"/>
+        <text name="TDprotectionFull"			text="Pełny"/>
+        <text name="TDprotectionFullpainted"	text="Pełny Namalowany"/>
+        <text name="TDnoprotection"				text="Bez Ochrona"/>
 	</texts>
 </l10n>

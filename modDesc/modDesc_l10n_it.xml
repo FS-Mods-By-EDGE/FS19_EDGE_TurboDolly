@@ -3,8 +3,9 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboLight"		text="Il rimorchio ha un intoppo nella parte posteriore, per consentire di realizzare un treno stradale."/>
-        <text name="name_turboLight" 			text="Luce turbo"/>
+		<text name="function_turboKipper"		text="Carrello lungo per qualsiasi semirimorchio, per agganciarli a un trattore o per rendere possibile un treno stradale."/>
+        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboTrailers" 		text="Rimorchi turbo"/>
         <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
         <text name="color_EDGESILVER" 			text="EDGE ARGENTO"/>
         <text name="color_DARKGREY"				text="GRIGIO SCURO"/>
@@ -26,13 +27,23 @@
         <text name="configuration_wideXBIB"		text="Largo Carico"/>
         <text name="configuration_megaXbib"		text="Fuori strada"/>
         <text name="configuration_Offroad"		text="Fuori strada"/>
-        <text name="config_TLlights"			text="Luci"/>
-        <text name="config_TLbeacon"			text="Luci di segnalazione"/>
-        <text name="config_TLwork"				text="Luci da lavoro"/>
-        <text name="config_TLnoLight"			text="Senza luci"/>
-        <text name="config_TLbeaconWork"		text="Segnalazione & Luci da lavoro"/>
-        <text name="config_TLdecalWhite"		text="Bianca decalcomanie"/>
-        <text name="config_TLdecalBlack"		text="Nera decalcomanie"/>
-        <text name="config_TLdecalRed"		text="Rossa decalcomanie"/>
+        <text name="config_TDdecalWhite"		text="Bianca decalcomanie"/>
+        <text name="config_TDdecalBlack"		text="Nera decalcomanie"/>
+        <text name="config_TDdecalRed"			text="Rossa decalcomanie"/>
+        <text name="config_TDnodecal"			text="Senza decalcomanie"/>
+        <text name="config_TDLicense"			text="Targa"/>
+        <text name="config_TDLicensePlate"		text="Con targa"/>
+        <text name="config_TDnoLicensePlate"	text="Senza targa"/>
+        <text name="configuration_Fenders" 		text="Parafanghi"/>
+        <text name="config_Fenders" 			text="Predefinito Parafanghi"/>
+        <text name="config_PaintedFenders" 		text="Dipinta Parafanghi"/>
+        <text name="config_PaintedFrontFenders"	text="Dipinta Davanti Parafanghi"/>
+        <text name="config_PaintedBackFenders" 	text="Dipinta Indietro Parafanghi"/>
+        <text name="config_TDprotection"		text="Protezione"/>
+        <text name="TDprotectionHalf"			text="Metà"/>
+        <text name="TDprotectionHalfpainted"	text="Metà Dipinta"/>
+        <text name="TDprotectionFull"			text="Piena"/>
+        <text name="TDprotectionFullpainted"	text="Piena Dipinta"/>
+        <text name="TDnoprotection"				text="Senza Protezione"/>
 	</texts>
 </l10n>

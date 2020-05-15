@@ -3,8 +3,9 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboLight"		text="El remolque tiene un enganche en la parte posterior, para que sea posible hacer un tren de carretera."/>
-        <text name="name_turboLight" 			text="Luz turbo"/>
+		<text name="function_turboKipper"		text="Carro largo para cualquier semirremolque, para engancharlo a un tractor o para hacer un tren de carretera."/>
+        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboTrailers" 		text="Turbo Remolques"/>
         <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
         <text name="color_EDGESILVER" 			text="EDGE PLATA"/>
         <text name="color_DARKGREY"				text="GRIS OSCURO"/>
@@ -26,13 +27,23 @@
         <text name="configuration_wideXBIB"		text="Amplio Carga"/>
         <text name="configuration_megaXbib"		text="Fuera del camino"/>
         <text name="configuration_Offroad"		text="Fuera del camino"/>
-        <text name="config_TLlights"			text="Luces"/>
-        <text name="config_TLbeacon"			text="Luces de baliza"/>
-        <text name="config_TLwork"				text="Luces de trabajo"/>
-        <text name="config_TLnoLight"			text="Sin luces"/>
-        <text name="config_TLbeaconWork"		text="Baliza & Luces de trabajo"/>
         <text name="config_TLdecalWhite"		text="Blanca Calcomanías"/>
         <text name="config_TLdecalBlack"		text="Negra Calcomanías"/>
-        <text name="config_TLdecalRed"		text="Roja Calcomanías"/>
+        <text name="config_TLdecalRed"			text="Roja Calcomanías"/>
+        <text name="config_TLnodecal"			text="Sin Calcomanías"/>
+        <text name="config_TDLicense"			text="Placa"/>
+        <text name="config_TDLicensePlate"		text="Con matrícula"/>
+        <text name="config_TDnoLicensePlate"	text="Sin matrícula"/>
+        <text name="configuration_Fenders" 		text="Defensas"/>
+        <text name="config_Fenders" 			text="Guardabarros predeterminados"/>
+        <text name="config_PaintedFenders" 		text="Defensas pintadas"/>
+        <text name="config_PaintedFrontFenders"	text="Guardabarros delanteros pintados"/>
+        <text name="config_PaintedBackFenders" 	text="Guardabarros traseros pintados"/>
+        <text name="config_TDprotection"		text="Proteccion"/>
+        <text name="TDprotectionHalf"			text="Media"/>
+        <text name="TDprotectionHalfpainted"	text="Media pintados"/>
+        <text name="TDprotectionFull"			text="Completa"/>
+        <text name="TDprotectionFullpainted"	text="Completa pintados"/>
+        <text name="TDnoprotection"				text="Sin Proteccion"/>
 	</texts>
 </l10n>
