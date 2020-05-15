@@ -24,7 +24,7 @@
         <filename>turboDolly.i3d</filename>
         <size width="3.5" length="6"/>
         <components>
-            <component centerOfMass="0 0.6 -0.8" solverIterationCount="10" mass="2899"/>
+            <component centerOfMass="0 0.6 -0.8" solverIterationCount="10" mass="2890"/>
         </components>
         <schemaOverlay attacherJointPosition="0 0">
             <default name="DEFAULT_IMPLEMENT"/>
@@ -454,7 +454,8 @@
         <fillUnitConfigurations title="$l10n_configuration_Fenders">
             <fillUnitConfiguration name="$l10n_config_Fenders" >
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillType="air" capacity="200" showOnHud="false" showInShop="false" updateMass="false"/>
+                    <fillUnit unit="$l10n_unit_literShort" fillType="air" capacity="230" showOnHud="false" showInShop="false" updateMass="false"/>
+                        <exactFillRootNode node="exactFillRootNode" />
                 </fillUnits>
 				<objectChange node="fendersFront" visibilityActive="true"/>
 				<objectChange node="fendersFrontPainted" visibilityActive="false"/>
@@ -464,6 +465,7 @@
             <fillUnitConfiguration name="$l10n_config_PaintedFenders" >
                 <fillUnits>
                     <fillUnit unit="$l10n_unit_literShort" fillType="air" capacity="200" showOnHud="false" showInShop="false" updateMass="false"/>
+                        <exactFillRootNode node="exactFillRootNode" />
                 </fillUnits>
 				<objectChange node="fendersFront" visibilityActive="false"/>
 				<objectChange node="fendersFrontPainted" visibilityActive="true"/>
@@ -472,7 +474,8 @@
             </fillUnitConfiguration>
             <fillUnitConfiguration name="$l10n_config_PaintedFrontFenders" >
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillType="air" capacity="200" showOnHud="false" showInShop="false" updateMass="false"/>
+                    <fillUnit unit="$l10n_unit_literShort" fillType="air" capacity="210" showOnHud="false" showInShop="false" updateMass="false"/>
+                        <exactFillRootNode node="exactFillRootNode" />
                 </fillUnits>
 				<objectChange node="fendersFront" visibilityActive="false"/>
 				<objectChange node="fendersFrontPainted" visibilityActive="true"/>
@@ -481,7 +484,8 @@
             </fillUnitConfiguration>
             <fillUnitConfiguration name="$l10n_config_PaintedBackFenders" >
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillType="air" capacity="200" showOnHud="false" showInShop="false" updateMass="false"/>
+                    <fillUnit unit="$l10n_unit_literShort" fillType="air" capacity="220" showOnHud="false" showInShop="false" updateMass="false"/>
+                        <exactFillRootNode node="exactFillRootNode" />
                 </fillUnits>
 				<objectChange node="fendersFront" visibilityActive="true"/>
 				<objectChange node="fendersFrontPainted" visibilityActive="false"/>
@@ -532,16 +536,16 @@
 			    <objectChange node="rearPlateNumberLight_01_left" visibilityActive="true"/>
 			    <objectChange node="rearPlateNumberLight_01_right" visibilityActive="true"/>
             </motorConfiguration>
-            <motorConfiguration name="$l10n_config_TDLicensePlate" price="0">
-                <motor torqueScale="1"/>
+            <motorConfiguration name="$l10n_config_TDLicensePlate" hp="10" price="0">
+                <motor torqueScale="1.1"/>
                 <objectChange node="krampe_licensePlateDecal" visibilityActive="true"/>
                 <objectChange node="krampe_licensePlate" visibilityActive="true"/>
                 <objectChange node="krampe_licensePlatePainted" visibilityActive="false"/>
 			    <objectChange node="rearPlateNumberLight_01_left" visibilityActive="true"/>
 			    <objectChange node="rearPlateNumberLight_01_right" visibilityActive="true"/>
             </motorConfiguration>
-            <motorConfiguration name="$l10n_config_TDnoLicensePlate" price="50">
-                <motor torqueScale="1"/>
+            <motorConfiguration name="$l10n_config_TDnoLicensePlate" hp="10" price="50">
+                <motor torqueScale="0.9"/>
                 <objectChange node="krampe_licensePlateDecal" visibilityActive="false"/>
 			    <objectChange node="rearPlateNumberLight_01_left" visibilityActive="false"/>
 			    <objectChange node="rearPlateNumberLight_01_right" visibilityActive="false"/>
@@ -928,6 +932,7 @@
     <i3dMappings>
         <i3dMapping id="turboDolly" node="0>"/>
         <i3dMapping id="cameraRot" node="0>2|1"/>
+        <i3dMapping id="exactFillRootNode" node="0>0|4|0"/>
         <i3dMapping id="camera" node="0>2|1|0"/>
         <i3dMapping id="exitPoint" node="0>2|0"/>
         <i3dMapping id="protectionPlateHalf" node="0>0|3|1|0"/>
