@@ -10,7 +10,7 @@
             <function>$l10n_function_turboKipper</function>
             <function>$l10n_function_dolly</function>
         </functions>
-        <image>store/store_turboDolly.png</image>
+        <image>store/store_turboDolly.dds</image>
         <price>12900</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
@@ -35,203 +35,223 @@
         <wheelConfigurations>
             <wheelConfiguration name="$l10n_configuration_TwinRadial" price="0" brand="TRELLEBORG">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_TwinRadial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_TwinRadial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43" scaleActive="0.9 0.95 0.95"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43" scaleActive="0.9 0.95 0.95"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_Radial" price="450" brand="TRELLEBORG">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_Radial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_Radial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43" scaleActive="0.9 0.95 0.95"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43" scaleActive="0.9 0.95 0.95"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_wideRadial" price="550" brand="TRELLEBORG">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_WideRadial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_WideRadial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_CARGOXBIB" price="550" brand="MICHELIN">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_CargoXBIB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_CargoXBIB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.90 0.92 0.92"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.90 0.92 0.92"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_wideXBIB" price="650" brand="MICHELIN">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_WideXBIB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_WideXBIB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43" scaleActive="0.90 0.92 0.92"/>
+				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43" scaleActive="0.90 0.92 0.92"/>
+				<objectChange node="wheelLeftHub" translationActive="0.040 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.040 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_CXBheavyduty" price="550" brand="MICHELIN">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_HeavydutyCXB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_HeavydutyCXB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_megaXbib" price="550" brand="MICHELIN">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_MegaXbib.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_MegaXbib.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_TwinForestry" price="450" brand="TRELLEBORG">
                 <wheels>
-                    <wheel filename="wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_Offroad" price="250" brand="NOKIAN">
                 <wheels>
-                    <wheel filename="wheels/TRI2_540_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/nokian_Offroad.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/TRI2_540_65R28.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/nokian_Offroad.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_rough" price="550" brand="TRELLEBORG">
                 <wheels>
-                    <wheel filename="wheels/SK800_12_R16_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_Rough.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/SK800_12_R16_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/trelleborg_Rough.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelRight" translationActive="-1.005 0.56 -1.43" scaleActive="0.95 0.95 0.95"/>
+				<objectChange node="wheelLeftHub" translationActive="0.025 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="1000" brand="MICHELIN">
                 <wheels>
-                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_Narrow.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
-                        <innerRim offset="0.04"/>
+                        <innerRim offset="0.19"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
-                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.18" >
+                        <additionalWheel filename="wheels/michelin_Narrow.xml" configId="dual" offset="0.08" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
                     </wheel>
-                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/michelin_Narrow.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
-                        <innerRim offset="0.04"/>
-                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.18" >
+                        <innerRim offset="0.19"/>
+                        <additionalWheel filename="wheels/michelin_Narrow.xml" configId="dual" offset="0.08" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.02 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.02 0.56 -1.43"/>
-				<objectChange node="wheelLeftHub" translationActive="-0.005 0 0"/>
-				<objectChange node="wheelRightHub" translationActive="0.005 0 0"/>
+				<objectChange node="wheelLeft" translationActive="0.83 0.56 -1.43" scaleActive="1 0.90 0.90"/>
+				<objectChange node="wheelRight" translationActive="-0.83 0.56 -1.43" scaleActive="1 0.90 0.90"/>
+				<objectChange node="wheelLeftHub" translationActive="0.18 0 0"/>
+				<objectChange node="wheelRightHub" translationActive="-0.18 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="LIZARD">
                 <wheels>
-                    <wheel filename="$data/shared/wheels/lizard/implement/385_65R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/lizard_Default.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
                         <wheelChock parkingNode="wheelChockLeft"/>
                         <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/385_65R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="wheels/lizard_Default.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelLeft" translationActive="1.05 0.56 -1.43"/>
-				<objectChange node="wheelRight" translationActive="-1.05 0.56 -1.43"/>
+				<objectChange node="wheelLeft" translationActive="1.05 0.56 -1.43" scaleActive="1.2 1.2 1.2"/>
+				<objectChange node="wheelRight" translationActive="-1.05 0.56 -1.43" scaleActive="1.2 1.2 1.2"/>
 				<objectChange node="wheelLeftHub" translationActive="-0.005 0 0"/>
 				<objectChange node="wheelRightHub" translationActive="0.005 0 0"/>
             </wheelConfiguration>
@@ -334,8 +354,8 @@
         <sharedLight linkNode="rearPlateNumberLight_01_left" filename="$data/shared/assets/lights/lizard/rearPlateNumberLight_01.xml"/>
         <sharedLight linkNode="rearMultipointLight_03_left" filename="$data/shared/assets/lights/lizard/rearMultipointLight_03_left.xml"/>
         <sharedLight linkNode="rearMultipointLight_03_right" filename="$data/shared/assets/lights/lizard/rearMultipointLight_03_right.xml"/>
-        <sharedLight linkNode="sideMarker_WhiteL01" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
-        <sharedLight linkNode="sideMarker_WhiteR01" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL01" filename="lights/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR01" filename="lights/rearLightOvalLEDWhite_01.xml"/>
 
         <realLights>
             <high>
@@ -584,7 +604,7 @@
 		<baseMaterialConfiguration name="$l10n_color_CASEIHMATTE" 	        color="CASEIH_RED1" 		material="1"/>
 		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	    color="NEWHOLLAND_BLUE1" 	material="1"/>
 		<baseMaterialConfiguration name="$l10n_color_KRONEMATTE" 	        color="KRONE_GREEN1" 		material="1"/>
-		<baseMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="1.000 1.000 0.000 1"	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
 		<baseMaterialConfiguration name="$l10n_color_STARAMATTE" 	        color="STARA_ORANGE" 		material="1"/>
 
 		<baseMaterialConfiguration name="$l10n_color_LELYMATTE" 		    color="LELY_COPPER" 		material="1"/>
@@ -602,7 +622,7 @@
 		<baseMaterialConfiguration name="$l10n_color_CASEIHCHROME" 	        color="CASEIH_RED1" 		material="2"/>
 		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	    color="NEWHOLLAND_BLUE1"    material="2"/>
 		<baseMaterialConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_GREEN1" 		material="2"/>
-		<baseMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="1.000 1.000 0.000 1"	material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
 		<baseMaterialConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
 
 		<baseMaterialConfiguration name="$l10n_color_LELYCHROME" 		    color="LELY_COPPER" 		material="2"/>
@@ -620,7 +640,7 @@
 		<baseMaterialConfiguration name="$l10n_color_CASEIHMETALLIC" 	    color="CASEIH_RED1" 		material="3"/>
 		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	color="NEWHOLLAND_BLUE1"    material="3"/>
 		<baseMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_GREEN1" 		material="3"/>
-		<baseMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="1.000 1.000 0.000 1"	material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
 		<baseMaterialConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
 
 		<baseMaterialConfiguration name="$l10n_color_LELYMETALLIC" 		    color="LELY_COPPER" 		material="3"/>
@@ -638,7 +658,7 @@
 		<baseMaterialConfiguration name="$l10n_color_CASEIHSHINY" 	        color="CASEIH_RED1" 		material="8"/>
 		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDSHINY" 	    color="NEWHOLLAND_BLUE1"    material="8"/>
 		<baseMaterialConfiguration name="$l10n_color_KRONESHINY" 	        color="KRONE_GREEN1" 		material="8"/>
-		<baseMaterialConfiguration name="$l10n_color_YELLOWSHINY"           color="1.000 1.000 0.000 1"	material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWSHINY"           color="0.980 0.980 0.220 1"	material="8"/>
 		<baseMaterialConfiguration name="$l10n_color_STARASHINY"            color="STARA_ORANGE" 		material="8"/>
 
 		<baseMaterialConfiguration name="$l10n_color_LELYSHINY" 		    color="LELY_COPPER" 		material="8"/>
@@ -656,7 +676,7 @@
         <baseMaterialConfiguration name="$l10n_color_RED"                   color="0.673 0.002 0.000 1" material="0"/>
 		<baseMaterialConfiguration name="$l10n_color_KOBALT" 		        color="DFM_DARKBLUE1" 		material="0"/>
         <baseMaterialConfiguration name="$l10n_color_GREEN"                 color="0.000 0.170 0.001 1" material="0"/>
-		<baseMaterialConfiguration name="$l10n_color_YELLOW"       	        color="1.000 1.000 0.000 1"	material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOW"       	        color="0.980 0.980 0.220 1"	material="0"/>
         <baseMaterialConfiguration name="$l10n_color_ORANGE"                color="0.932 0.119 0.000 1" material="0"/>
 
         <baseMaterialConfiguration name="$l10n_color_LELY"       		    color="LELY_COPPER" 		material="0"/>
@@ -670,10 +690,10 @@
             <!--Mix-->
         <baseMaterialConfiguration name="$l10n_color_DARKGREY"              color="0.037 0.037 0.037 1" material="0"/>
 		<baseMaterialConfiguration name="$l10n_color_BROWN" 		        color="SHARED_BROWN1" 		material="0"/>
-        <baseMaterialConfiguration name="$l10n_color_CRIMSONGLORY"          color="0.690 0.000 0.160 1" material="0"/>
         <baseMaterialConfiguration name="$l10n_color_ALICEBLUE"             color="0.940 0.970 1.000 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_CRIMSONGLORY"          color="0.690 0.000 0.160 1" material="0"/>
 		<baseMaterialConfiguration name="$l10n_color_CYAN" 			        color="KOMATSU_CYAN" 		material="0"/>
-        <baseMaterialConfiguration name="$l10n_color_ANDROIDGREEN"          color="0.690 0.750 0.100 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_ANDROIDGREEN"          color="0.640 0.780 0.220 1" material="0"/>
 		<baseMaterialConfiguration name="$l10n_color_CORN" 		            color="1.000 0.900 0.400 1" material="0"/>
 		<baseMaterialConfiguration name="$l10n_color_AMBER" 		        color="1.000 0.750 0.000 1" material="0"/>
         <material name="krampeTurbo_mat" shaderParameter="colorMat0"/>
@@ -686,7 +706,7 @@
 		<designMaterialConfiguration name="$l10n_color_CASEIHMATTE" 	      color="CASEIH_RED1" 		material="1"/>
 		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	  color="NEWHOLLAND_BLUE1" 	material="1"/>
 		<designMaterialConfiguration name="$l10n_color_KRONEMATTE" 	          color="KRONE_GREEN1" 		material="1"/>
-		<designMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="1.000 1.000 0.000 1"	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
 		<designMaterialConfiguration name="$l10n_color_STARAMATTE" 	          color="STARA_ORANGE" 		material="1"/>
 
 		<designMaterialConfiguration name="$l10n_color_LELYMATTE" 		      color="LELY_COPPER" 		material="1"/>
@@ -704,7 +724,7 @@
 		<designMaterialConfiguration name="$l10n_color_CASEIHCHROME" 	      color="CASEIH_RED1" 		material="2"/>
 		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	  color="NEWHOLLAND_BLUE1"    material="2"/>
 		<designMaterialConfiguration name="$l10n_color_KRONECHROME" 	      color="KRONE_GREEN1" 		material="2"/>
-		<designMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="1.000 1.000 0.000 1"	material="2"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
 		<designMaterialConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
 
 		<designMaterialConfiguration name="$l10n_color_LELYCHROME" 		      color="LELY_COPPER" 		material="2"/>
@@ -722,7 +742,7 @@
 		<designMaterialConfiguration name="$l10n_color_CASEIHMETALLIC" 	      color="CASEIH_RED1" 		material="3"/>
 		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	  color="NEWHOLLAND_BLUE1"    material="3"/>
 		<designMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	      color="KRONE_GREEN1" 		material="3"/>
-		<designMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="1.000 1.000 0.000 1"	material="3"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
 		<designMaterialConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
 
 		<designMaterialConfiguration name="$l10n_color_LELYMETALLIC" 		  color="LELY_COPPER" 		material="3"/>
@@ -740,7 +760,7 @@
 		<designMaterialConfiguration name="$l10n_color_CASEIHSHINY" 	color="CASEIH_RED1" 		material="8"/>
 		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDSHINY" color="NEWHOLLAND_BLUE1"    material="8"/>
 		<designMaterialConfiguration name="$l10n_color_KRONESHINY" 	    color="KRONE_GREEN1" 		material="8"/>
-		<designMaterialConfiguration name="$l10n_color_YELLOWSHINY"     color="1.000 1.000 0.000 1"	material="8"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWSHINY"     color="0.980 0.980 0.220 1"	material="8"/>
 		<designMaterialConfiguration name="$l10n_color_STARASHINY"      color="STARA_ORANGE" 		material="8"/>
 
 		<designMaterialConfiguration name="$l10n_color_LELYSHINY" 		color="LELY_COPPER" 		material="8"/>
@@ -758,7 +778,7 @@
         <designMaterialConfiguration name="$l10n_color_RED"             color="0.673 0.002 0.000 1" material="0"/>
 		<designMaterialConfiguration name="$l10n_color_KOBALT" 		    color="DFM_DARKBLUE1" 		material="0"/>
         <designMaterialConfiguration name="$l10n_color_GREEN"           color="0.000 0.170 0.001 1" material="0"/>
-		<designMaterialConfiguration name="$l10n_color_YELLOW"       	color="1.000 1.000 0.000 1"	material="0"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOW"       	color="0.980 0.980 0.220 1"	material="0"/>
         <designMaterialConfiguration name="$l10n_color_ORANGE"          color="0.932 0.119 0.000 1" material="0"/>
 
         <designMaterialConfiguration name="$l10n_color_LELY"       		color="LELY_COPPER" 		material="0"/>
@@ -788,7 +808,7 @@
 		<rimColorConfiguration name="$l10n_color_CASEIHMATTE" 	        color="CASEIH_RED1" 		material="1"/>
 		<rimColorConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	    color="NEWHOLLAND_BLUE1" 	material="1"/>
 		<rimColorConfiguration name="$l10n_color_KRONEMATTE" 	        color="KRONE_GREEN1" 		material="1"/>
-		<rimColorConfiguration name="$l10n_color_YELLOWMATTE"           color="1.000 1.000 0.000 1"	material="1"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
 		<rimColorConfiguration name="$l10n_color_STARAMATTE" 	        color="STARA_ORANGE" 		material="1"/>
 
 		<rimColorConfiguration name="$l10n_color_LELYMATTE" 		    color="LELY_COPPER" 		material="1"/>
@@ -806,7 +826,7 @@
 		<rimColorConfiguration name="$l10n_color_CASEIHCHROME" 	        color="CASEIH_RED1" 		material="2"/>
 		<rimColorConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	    color="NEWHOLLAND_BLUE1"    material="2"/>
 		<rimColorConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_GREEN1" 		material="2"/>
-		<rimColorConfiguration name="$l10n_color_YELLOWCHROME"          color="1.000 1.000 0.000 1"	material="2"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
 		<rimColorConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
 
 		<rimColorConfiguration name="$l10n_color_LELYCHROME" 		    color="LELY_COPPER" 		material="2"/>
@@ -824,7 +844,7 @@
 		<rimColorConfiguration name="$l10n_color_CASEIHMETALLIC" 	    color="CASEIH_RED1" 		material="3"/>
 		<rimColorConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	color="NEWHOLLAND_BLUE1"    material="3"/>
 		<rimColorConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_GREEN1" 		material="3"/>
-		<rimColorConfiguration name="$l10n_color_YELLOWMETALLIC"        color="1.000 1.000 0.000 1"	material="3"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
 		<rimColorConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
 
 		<rimColorConfiguration name="$l10n_color_LELYMETALLIC" 		    color="LELY_COPPER" 		material="3"/>
@@ -842,7 +862,7 @@
 		<rimColorConfiguration name="$l10n_color_CASEIHSHINY" 	        color="CASEIH_RED1" 		material="8"/>
 		<rimColorConfiguration name="$l10n_color_NEWHOLLANDSHINY" 	    color="NEWHOLLAND_BLUE1"    material="8"/>
 		<rimColorConfiguration name="$l10n_color_KRONESHINY" 	        color="KRONE_GREEN1" 		material="8"/>
-		<rimColorConfiguration name="$l10n_color_YELLOWSHINY"           color="1.000 1.000 0.000 1"	material="8"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWSHINY"           color="0.980 0.980 0.220 1"	material="8"/>
 		<rimColorConfiguration name="$l10n_color_STARASHINY"            color="STARA_ORANGE" 		material="8"/>
 
 		<rimColorConfiguration name="$l10n_color_LELYSHINY" 		    color="LELY_COPPER" 		material="8"/>
@@ -860,7 +880,7 @@
         <rimColorConfiguration name="$l10n_color_RED"                   color="0.673 0.002 0.000 1" material="0"/>
 		<rimColorConfiguration name="$l10n_color_KOBALT" 		        color="DFM_DARKBLUE1" 		material="0"/>
         <rimColorConfiguration name="$l10n_color_GREEN"                 color="0.000 0.170 0.001 1" material="0"/>
-		<rimColorConfiguration name="$l10n_color_YELLOW"       	        color="1.000 1.000 0.000 1"	material="0"/>
+		<rimColorConfiguration name="$l10n_color_YELLOW"       	        color="0.980 0.980 0.220 1"	material="0"/>
         <rimColorConfiguration name="$l10n_color_ORANGE"                color="0.932 0.119 0.000 1" material="0"/>
 
         <rimColorConfiguration name="$l10n_color_LELY"       		    color="LELY_COPPER" 		material="0"/>
