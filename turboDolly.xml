@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<vehicle type="dolly">
+<vehicle type="edge_Dolly">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
         <name>$l10n_name_turboKipper</name>
@@ -38,8 +38,8 @@
                     <wheel filename="wheels/trelleborg_TwinRadial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinRadial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -56,8 +56,8 @@
                     <wheel filename="wheels/trelleborg_Radial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_Radial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -74,8 +74,8 @@
                     <wheel filename="wheels/trelleborg_WideRadial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_WideRadial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -92,8 +92,8 @@
                     <wheel filename="wheels/michelin_CargoXBIB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_CargoXBIB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -110,8 +110,8 @@
                     <wheel filename="wheels/michelin_WideXBIB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_WideXBIB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -128,8 +128,8 @@
                     <wheel filename="wheels/michelin_HeavydutyCXB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_HeavydutyCXB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -146,8 +146,8 @@
                     <wheel filename="wheels/michelin_MegaXbib.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_MegaXbib.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -164,8 +164,8 @@
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -182,8 +182,8 @@
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -200,8 +200,8 @@
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -218,8 +218,8 @@
                     <wheel filename="wheels/michelin_Narrow.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.19"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                         <additionalWheel filename="wheels/michelin_Narrow.xml" configId="dual" offset="0.08" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
@@ -242,8 +242,8 @@
                     <wheel filename="wheels/lizard_Default.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/lizard_Default.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -260,8 +260,8 @@
                     <wheel filename="$data/shared/wheels/nokian/TRI2/400_80R24.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/nokian/TRI2/400_80R24.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -278,8 +278,8 @@
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/560_60R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="0.04"/>
-                        <wheelChock parkingNode="wheelChockLeft"/>
-                        <wheelChock parkingNode="wheelChockRight" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/560_60R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
@@ -299,8 +299,6 @@
     </wheels>
 
     <dynamicallyLoadedParts>
-        <dynamicallyLoadedPart node="0" linkNode="wheelChockSupportLeft" filename="$data/shared/assets/wheelChocks/wheelChockSupport01.i3d"/>
-        <dynamicallyLoadedPart node="0" linkNode="wheelChockSupportRight" filename="$data/shared/assets/wheelChocks/wheelChockSupport01.i3d"/>
 		<!-- connectionHoses -->
         <dynamicallyLoadedPart node="1|0" linkNode="hoseHydraulic01In" filename="$data/shared/connectionHoses/connectors.i3d"/>
         <dynamicallyLoadedPart node="1|0" linkNode="hoseHydraulic01Out" filename="$data/shared/connectionHoses/connectors.i3d"/>
@@ -354,8 +352,8 @@
         <sharedLight linkNode="rearPlateNumberLight_01_left" filename="$data/shared/assets/lights/lizard/rearPlateNumberLight_01.xml"/>
         <sharedLight linkNode="rearMultipointLight_03_left" filename="$data/shared/assets/lights/lizard/rearMultipointLight_03_left.xml"/>
         <sharedLight linkNode="rearMultipointLight_03_right" filename="$data/shared/assets/lights/lizard/rearMultipointLight_03_right.xml"/>
-        <sharedLight linkNode="sideMarker_WhiteL01" filename="lights/rearLightOvalLEDWhite_01.xml"/>
-        <sharedLight linkNode="sideMarker_WhiteR01" filename="lights/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
 
         <realLights>
             <high>
@@ -372,8 +370,9 @@
     <cylindered>
        <movingTools>
            <movingTool node="semitrailerAttacherJoint" playSound="true">
+                <attacherJoint jointIndices="1"/>
                 <controls axis="AXIS_CRANE_ARM4" invertAxis="true" mouseSpeedFactor="0.8" iconName="CRANE_ARM2_TRANSLATE"/>
-                <animation animSpeed="0.8" animAcceleration="200" animName="attacherAnimation"/>
+                <animation animSpeed="0.6" animAcceleration="200" animName="attacherAnimation"/>
             </movingTool>
        </movingTools>
        <sounds>
@@ -400,12 +399,12 @@
         <support animationName="moveSupport"/>
         <brakeForce>1</brakeForce>
         <toolCameras>
-			<toolCamera node="reverseCamera" rotatable="false" useWorldXZRotation="false" limit="true" rotMinX="-1.1" rotMaxX="1.1" transMin="0" transMax="0" allowHeadTracking="true" />
+			<toolCamera node="reverseCamera" rotatable="false" useWorldXZRotation="false" limit="true" rotMinX="-1.1" rotMaxX="1.1" transMin="0" transMax="0" allowHeadTracking="true"/>
         </toolCameras>
     </attachable>
     <attacherJoints>
-        <attacherJoint node="semitrailerAttacherJoint" jointType="semitrailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="5 175 25" enableCollision="true" >
-            <schema position="1 0" rotation="0" invertX="false"/>
+        <attacherJoint node="semitrailerAttacherJoint" jointType="semitrailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="5 175 25" lowerTransLimit="0 0 1.1" enableCollision="true" >
+            <schema position="0.6 0.6" rotation="0" invertX="false"/>
         </attacherJoint>
         <sounds>
             <attach template="ATTACH_01" linkNode="0>"/>
@@ -500,8 +499,8 @@
                 </differentials>
             </differentialConfiguration>
         </differentialConfigurations>
-        <motorConfigurations title="$l10n_config_TDLicense">
-            <motorConfiguration name="$l10n_config_TDLicensePaint" price="100" hp="10" >
+        <motorConfigurations>
+            <motorConfiguration price="0" hp="10" showOnHud="false">
                 <motor torqueScale="0.25" minRpm="1000" maxRpm="2200" maxForwardSpeed="15" maxBackwardSpeed="10" brakeForce="0.1" lowBrakeForceScale="0.22">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5"  torque="0.97"/>
@@ -511,28 +510,32 @@
                     <torque normRpm="1"    torque="0.72"/>
                 </motor>
                 <transmission minForwardGearRatio="110" maxForwardGearRatio="150" minBackwardGearRatio="110" maxBackwardGearRatio="150"/>
+            </motorConfiguration>
+        </motorConfigurations>
+    </motorized>
+    <fillUnit>
+        <fillUnitConfigurations title="$l10n_config_TDLicense">
+            <fillUnitConfiguration name="$l10n_config_TDLicensePaint" price="100">
                 <objectChange node="krampe_licensePlateDecal" visibilityActive="true"/>
                 <objectChange node="krampe_licensePlate" visibilityActive="false"/>
                 <objectChange node="krampe_licensePlatePainted" visibilityActive="true"/>
 			    <objectChange node="rearPlateNumberLight_01_left" visibilityActive="true"/>
 			    <objectChange node="rearPlateNumberLight_01_right" visibilityActive="true"/>
-            </motorConfiguration>
-            <motorConfiguration name="$l10n_config_TDLicensePlate" price="0" hp="10">
-                <motor torqueScale="0.2"/>
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_config_TDLicensePlate" price="0">
                 <objectChange node="krampe_licensePlateDecal" visibilityActive="true"/>
                 <objectChange node="krampe_licensePlate" visibilityActive="true"/>
                 <objectChange node="krampe_licensePlatePainted" visibilityActive="false"/>
 			    <objectChange node="rearPlateNumberLight_01_left" visibilityActive="true"/>
 			    <objectChange node="rearPlateNumberLight_01_right" visibilityActive="true"/>
-            </motorConfiguration>
-            <motorConfiguration name="$l10n_config_TDnoLicensePlate" price="50" hp="10">
-                <motor torqueScale="0.15"/>
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_config_TDnoLicensePlate" price="50">
                 <objectChange node="krampe_licensePlateDecal" visibilityActive="false" visibilityInactive="true"/>
 			    <objectChange node="rearPlateNumberLight_01_left" visibilityActive="false"/>
 			    <objectChange node="rearPlateNumberLight_01_right" visibilityActive="false"/>
-            </motorConfiguration>
-        </motorConfigurations>
-    </motorized>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
     <drivable>
         <sounds>
             <waterSplash template="WATER_SPLASH_01"/>
@@ -540,19 +543,19 @@
         <cruiseControl minSpeed="0.01"/>
     </drivable>
     <vehicleTypeConfigurations title="$l10n_config_TDprotection">
-		<vehicleTypeConfiguration name="$l10n_TDprotectionHalf" price="300" vehicleType="dolly">
+		<vehicleTypeConfiguration name="$l10n_TDprotectionHalf" price="300" vehicleType="edge_Dolly">
 			<objectChange node="protectionPlateHalf" visibilityActive="true"/>
 			<objectChange node="protectionPlateHalfPainted" visibilityActive="false"/>
 			<objectChange node="screwDecals02" visibilityActive="true"/>
 			<objectChange node="screwDecals03" visibilityActive="false"/>
 		</vehicleTypeConfiguration>
-		<vehicleTypeConfiguration name="$l10n_TDprotectionHalfpainted" price="600" vehicleType="dolly">
+		<vehicleTypeConfiguration name="$l10n_TDprotectionHalfpainted" price="600" vehicleType="edge_Dolly">
 			<objectChange node="protectionPlateHalf" visibilityActive="false"/>
 			<objectChange node="protectionPlateHalfPainted" visibilityActive="true"/>
 			<objectChange node="screwDecals02" visibilityActive="true"/>
 			<objectChange node="screwDecals03" visibilityActive="false"/>
 		</vehicleTypeConfiguration>
-		<vehicleTypeConfiguration name="$l10n_TDprotectionFull" price="600" vehicleType="dolly">
+		<vehicleTypeConfiguration name="$l10n_TDprotectionFull" price="600" vehicleType="edge_Dolly">
 			<objectChange node="protectionPlateHalf" visibilityActive="true"/>
 			<objectChange node="protectionPlateHalfPainted" visibilityActive="false"/>
 			<objectChange node="screwDecals02" visibilityActive="true"/>
@@ -560,7 +563,7 @@
 			<objectChange node="protectionPlateFull" visibilityActive="true"/>
 			<objectChange node="protectionPlateFullPainted" visibilityActive="false"/>
 		</vehicleTypeConfiguration>
-		<vehicleTypeConfiguration name="$l10n_TDprotectionFullpainted" price="1200" vehicleType="dolly">
+		<vehicleTypeConfiguration name="$l10n_TDprotectionFullpainted" price="1200" vehicleType="edge_Dolly">
 			<objectChange node="protectionPlateHalf" visibilityActive="false"/>
 			<objectChange node="protectionPlateHalfPainted" visibilityActive="true"/>
 			<objectChange node="screwDecals02" visibilityActive="true"/>
@@ -568,7 +571,7 @@
 			<objectChange node="protectionPlateFull" visibilityActive="false"/>
 			<objectChange node="protectionPlateFullPainted" visibilityActive="true"/>
 		</vehicleTypeConfiguration>
-		<vehicleTypeConfiguration name="$l10n_TDnoprotection" price="0" vehicleType="dolly">
+		<vehicleTypeConfiguration name="$l10n_TDnoprotection" price="0" vehicleType="edge_Dolly">
 			<objectChange node="screwDecals02" visibilityActive="false"/>
 			<objectChange node="screwDecals03" visibilityActive="false"/>
 			<objectChange node="krampe_licensePlate" visibilityActive="true"/>
@@ -579,6 +582,9 @@
         <material name="krampeTurbo_mat" baseNode="turboDolly_vis">
             <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
             <shaderParameter name="colorMat1" value="SHARED_BLACK2"/>
+        </material>
+        <material name="wheelChockSupport_mat" baseNode="wheelChockSupportLeft">
+            <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
         </material>
     </baseMaterial>
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
@@ -655,6 +661,7 @@
 		<baseMaterialConfiguration name="$l10n_color_NEWHOLLAND" 	        color="NEWHOLLAND_YELLOW1" 	material="0"/>
         <baseMaterialConfiguration name="$l10n_color_PINK"                  color="0.880 0.130 0.540 1" material="0"/>
         <material name="krampeTurbo_mat" shaderParameter="colorMat0"/>
+        <material name="wheelChockSupport_mat" shaderParameter="colorMat0"/>
     </baseMaterialConfigurations>
     <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="12">
             <!--Matte-->
