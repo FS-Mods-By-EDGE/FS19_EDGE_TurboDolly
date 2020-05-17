@@ -16,10 +16,10 @@
         <text name="configuration_wideXBIB"		text="Breit Ladung"/>
         <text name="configuration_megaXbib"		text="Offroad"/>
         <text name="configuration_Offroad"		text="Offroad"/>
-        <text name="config_TLdecalWhite"		text="Weiß Abziehbilder"/>
-        <text name="config_TLdecalBlack"		text="Schwarz Abziehbilder"/>
-        <text name="config_TLdecalRed"			text="rot Abziehbilder"/>
-        <text name="config_TLnodecal"			text="Keine Abziehbilder"/>
+        <text name="config_TDdecalWhite"		text="Weiß Abziehbilder"/>
+        <text name="config_TDdecalBlack"		text="Schwarz Abziehbilder"/>
+        <text name="config_TDdecalRed"			text="rot Abziehbilder"/>
+        <text name="config_TDnodecal"			text="Keine Abziehbilder"/>
         <text name="config_TDLicense"			text="Nummernschild"/>
         <text name="config_TDLicensePlate"		text="Mit Nummernschild"/>
         <text name="config_TDnoLicensePlate"	text="Ohne Nummernschild"/>

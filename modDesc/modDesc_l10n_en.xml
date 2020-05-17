@@ -19,7 +19,7 @@
         <text name="config_TDdecalWhite"		text="White Decals"/>
         <text name="config_TDdecalBlack"		text="Black Decals"/>
         <text name="config_TDdecalRed"			text="Red Decals"/>
-        <text name="config_TLnodecal"			text="No Decals"/>
+        <text name="config_TDnodecal"			text="No Decals"/>
         <text name="config_TDLicense"			text="License Plate"/>
         <text name="config_TDLicensePlate"		text="With License Plate"/>
         <text name="config_TDnoLicensePlate"	text="Without License Plate"/>

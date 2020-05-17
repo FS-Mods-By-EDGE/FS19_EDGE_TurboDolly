@@ -16,10 +16,10 @@
         <text name="configuration_wideXBIB"		text="Широкий грузовой"/>
         <text name="configuration_megaXbib"		text="Внедорожный"/>
         <text name="configuration_Offroad"		text="Внедорожный"/>
-        <text name="config_TLdecalWhite"		text="белый Переводные картинки"/>
-        <text name="config_TLdecalBlack"		text="черный Переводные картинки"/>
-        <text name="config_TLdecalRed"			text="красный Переводные картинки"/>
-        <text name="config_TLnodecal"			text="Нет Переводные картинки"/>
+        <text name="config_TDdecalWhite"		text="белый Переводные картинки"/>
+        <text name="config_TDdecalBlack"		text="черный Переводные картинки"/>
+        <text name="config_TDdecalRed"			text="красный Переводные картинки"/>
+        <text name="config_TDnodecal"			text="Нет Переводные картинки"/>
         <text name="config_TDLicense"			text="Номерной знак"/>
         <text name="config_TDLicensePlate"		text="С номерным знаком"/>
         <text name="config_TDnoLicensePlate"	text="Без номерного знака"/>

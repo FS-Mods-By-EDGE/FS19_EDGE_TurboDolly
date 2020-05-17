@@ -16,10 +16,10 @@
         <text name="configuration_wideXBIB"		text="Szeroki Ładunek"/>
         <text name="configuration_megaXbib"		text="Poza drogą"/>
         <text name="configuration_Offroad"		text="Poza drogą"/>
-        <text name="config_TLdecalWhite"		text="Biały Piktogramy"/>
-        <text name="config_TLdecalBlack"		text="Czarny Piktogramy"/>
-        <text name="config_TLdecalRed"			text="Czerwony Piktogramy"/>
-        <text name="config_TLnodecal"			text="Bez Piktogramy"/>
+        <text name="config_TDdecalWhite"		text="Biały Piktogramy"/>
+        <text name="config_TDdecalBlack"		text="Czarny Piktogramy"/>
+        <text name="config_TDdecalRed"			text="Czerwony Piktogramy"/>
+        <text name="config_TDnodecal"			text="Bez Piktogramy"/>
         <text name="config_TDLicense"			text="Tablica rejestracyjna"/>
         <text name="config_TDLicensePlate"		text="Z tablicą rejestracyjną"/>
         <text name="config_TDnoLicensePlate"	text="Bez tablicy rejestracyjnej"/>

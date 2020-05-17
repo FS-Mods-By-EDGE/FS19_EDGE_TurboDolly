@@ -16,10 +16,10 @@
         <text name="configuration_wideXBIB"		text="Large Cargaison"/>
         <text name="configuration_megaXbib"		text="Hors route"/>
         <text name="configuration_Offroad"		text="Hors route"/>
-        <text name="config_TLdecalWhite"		text="Blanche Décalcomanies"/>
-        <text name="config_TLdecalBlack"		text="Noire Décalcomanies"/>
-        <text name="config_TLdecalRed"			text="rouge Décalcomanies"/>
-        <text name="config_TLnodecal"			text="Pas de Décalcomanies"/>
+        <text name="config_TDdecalWhite"		text="Blanche Décalcomanies"/>
+        <text name="config_TDdecalBlack"		text="Noire Décalcomanies"/>
+        <text name="config_TDdecalRed"			text="rouge Décalcomanies"/>
+        <text name="config_TDnodecal"			text="Pas de Décalcomanies"/>
         <text name="config_TDLicense"			text="Plaque d'immatriculation"/>
         <text name="config_TDLicensePlate"		text="Avec plaque d'immatriculation"/>
         <text name="config_TDnoLicensePlate"	text="Sans plaque d'immatriculation"/>

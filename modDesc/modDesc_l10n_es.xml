@@ -16,10 +16,10 @@
         <text name="configuration_wideXBIB"		text="Amplio Carga"/>
         <text name="configuration_megaXbib"		text="Fuera del camino"/>
         <text name="configuration_Offroad"		text="Fuera del camino"/>
-        <text name="config_TLdecalWhite"		text="Blanca Calcomanías"/>
-        <text name="config_TLdecalBlack"		text="Negra Calcomanías"/>
-        <text name="config_TLdecalRed"			text="Roja Calcomanías"/>
-        <text name="config_TLnodecal"			text="Sin Calcomanías"/>
+        <text name="config_TDdecalWhite"		text="Blanca Calcomanías"/>
+        <text name="config_TDdecalBlack"		text="Negra Calcomanías"/>
+        <text name="config_TDdecalRed"			text="Roja Calcomanías"/>
+        <text name="config_TDnodecal"			text="Sin Calcomanías"/>
         <text name="config_TDLicense"			text="Placa"/>
         <text name="config_TDLicensePlate"		text="Con matrícula"/>
         <text name="config_TDnoLicensePlate"	text="Sin matrícula"/>
