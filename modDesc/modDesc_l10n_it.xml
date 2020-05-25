@@ -4,7 +4,7 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="function_turboKipper"		text="Carrello lungo per qualsiasi semirimorchio, per agganciarli a un trattore o per rendere possibile un treno stradale."/>
-        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
         <text name="name_turboTrailers" 		text="Rimorchi turbo"/>
         <text name="configuration_TwinRadial" 	text="Radiale doppia"/>
         <text name="configuration_CARGOXBIB" 	text="Carico"/>

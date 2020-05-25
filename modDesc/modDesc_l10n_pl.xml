@@ -4,7 +4,7 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="function_turboKipper"		text="Długi wózek dla każdej naczepy, do zaczepienia jej do ciągnika lub umożliwienia wykonania pociągu drogowego."/>
-        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
         <text name="name_turboTrailers" 		text="Przyczepy Turbo"/>
         <text name="configuration_TwinRadial" 	text="Podwójny promieniowy"/>
         <text name="configuration_CARGOXBIB" 	text="Ładunek"/>

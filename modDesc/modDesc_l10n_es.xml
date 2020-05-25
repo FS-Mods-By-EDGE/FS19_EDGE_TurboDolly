@@ -4,7 +4,7 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="function_turboKipper"		text="Carro largo para cualquier semirremolque, para engancharlo a un tractor o para hacer un tren de carretera."/>
-        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
         <text name="name_turboTrailers" 		text="Turbo Remolques"/>
         <text name="configuration_TwinRadial" 	text="Radial doble"/>
         <text name="configuration_CARGOXBIB" 	text="Carga"/>

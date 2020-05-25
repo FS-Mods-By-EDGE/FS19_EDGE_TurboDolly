@@ -4,7 +4,7 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="function_turboKipper"		text="Длинная тележка для любого полуприцепа, чтобы прицепить их к трактору или сделать возможным автопоезд."/>
-        <text name="name_turboKipper" 			text="Турбо Киппер"/>
+        <text name="name_turboKipper" 			text="Турбо трекер"/>
         <text name="name_turboTrailers" 		text="Турбо Прицепы"/>
         <text name="configuration_TwinRadial" 	text="Двойной радиальный"/>
         <text name="configuration_CARGOXBIB" 	text="грузовой"/>

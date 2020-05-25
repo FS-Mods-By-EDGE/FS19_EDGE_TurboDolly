@@ -4,7 +4,7 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="function_turboKipper"		text="Chariot long pour toute semi-remorque, pour les atteler à un tracteur ou pour permettre de faire un train routier."/>
-        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
         <text name="name_turboTrailers" 		text="Remorques turbo"/>
         <text name="configuration_TwinRadial" 	text="Radial double"/>
         <text name="configuration_CARGOXBIB" 	text="Cargaison"/>

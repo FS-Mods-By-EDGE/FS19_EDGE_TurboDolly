@@ -4,7 +4,7 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="function_turboKipper"		text="Langer Dolly für jeden Sattelauflieger, um ihn an einen Traktor anzuhängen oder um einen Straßenzug zu bauen."/>
-        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
 	    <text name="name_turboTrailers" 		text="Turboanhänger"/>
         <text name="configuration_TwinRadial" 	text="Zwillingsradial"/>
         <text name="configuration_CARGOXBIB" 	text="Ladung"/>

@@ -5,6 +5,8 @@
         <name>$l10n_name_turboKipper</name>
         <specs>
             <combination>$l10n_name_turboTrailers</combination>
+			<neededPower>50</neededPower>
+            <capacity unit="$l10n_unit_kg">2890</capacity>
         </specs>
         <functions>
             <function>$l10n_function_turboKipper</function>
@@ -34,15 +36,15 @@
     <wheels>
         <wheelConfigurations>
             <wheelConfiguration name="$l10n_configuration_TwinRadial" price="0" brand="TRELLEBORG">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/trelleborg_TwinRadial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinRadial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -52,15 +54,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_Radial" price="450" brand="TRELLEBORG">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/trelleborg_Radial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_Radial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -70,15 +72,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_wideRadial" price="550" brand="TRELLEBORG">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/trelleborg_WideRadial.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_WideRadial.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -88,15 +90,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.028 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_CARGOXBIB" price="550" brand="MICHELIN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/michelin_CargoXBIB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_CargoXBIB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -106,15 +108,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_wideXBIB" price="650" brand="MICHELIN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/michelin_WideXBIB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_WideXBIB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -124,15 +126,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.040 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_CXBheavyduty" price="550" brand="MICHELIN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/michelin_HeavydutyCXB.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_HeavydutyCXB.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -142,15 +144,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_megaXbib" price="550" brand="MICHELIN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/michelin_MegaXbib.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_MegaXbib.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -160,15 +162,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_TwinForestry" price="450" brand="TRELLEBORG">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -178,15 +180,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_Offroad" price="250" brand="NOKIAN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -196,15 +198,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_rough" price="550" brand="TRELLEBORG">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
@@ -214,9 +216,9 @@
 				<objectChange node="wheelRightHub" translationActive="-0.025 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="1000" brand="MICHELIN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/michelin_Narrow.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.19"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
@@ -225,7 +227,7 @@
                         </additionalWheel>
                     </wheel>
                     <wheel filename="wheels/michelin_Narrow.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
                         <innerRim offset="0.19"/>
                         <additionalWheel filename="wheels/michelin_Narrow.xml" configId="dual" offset="0.08" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
@@ -238,15 +240,15 @@
 				<objectChange node="wheelRightHub" translationActive="-0.18 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="LIZARD">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="wheels/lizard_Default.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/lizard_Default.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
                     </wheel>
                 </wheels>
@@ -256,15 +258,15 @@
 				<objectChange node="wheelRightHub" translationActive="0.005 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="200" brand="NOKIAN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="$data/shared/wheels/nokian/TRI2/400_80R24.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/nokian/TRI2/400_80R24.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="-0.01"/>
                     </wheel>
                 </wheels>
@@ -274,21 +276,24 @@
 				<objectChange node="wheelRightHub" translationActive="0.005 0 0"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="100" brand="MICHELIN">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/560_60R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelLeft"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="0.04"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/560_60R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                        <physics restLoad="0.7" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
+                        <physics restLoad="0.7" showSteeringAngle="false" repr="wheelRight"  forcePointRatio="0.5" initialCompression="11" suspTravel="0.15" spring="120" damper="50"/>
 						<innerRim offset="0.04"/>
                     </wheel>
                 </wheels>
 				<objectChange node="wheelLeftHub" translationActive="0.045 0 0"/>
 				<objectChange node="wheelRightHub" translationActive="-0.045 0 0"/>
             </wheelConfiguration>
+            <ackermannSteeringConfigurations>
+                <ackermannSteering rotSpeed="70" rotMax="60" rotCenter="0 0" />
+            </ackermannSteeringConfigurations>
         </wheelConfigurations>
         <hubs>
             <color0 useBaseColor="true"/>
@@ -394,7 +399,7 @@
     </foliageBending>
     <attachable>
         <inputAttacherJoints>
-            <inputAttacherJoint node="attacherJoint" jointType="trailerLow" attacherHeight="0.65"/>
+            <inputAttacherJoint node="attacherJoint" jointType="trailerLow" attacherHeight="0.65" forceSelectionOnAttach="false"/>
         </inputAttacherJoints>
         <support animationName="moveSupport"/>
         <brakeForce>1</brakeForce>
@@ -481,7 +486,7 @@
         </trailerConfigurations>
     </trailer>
     <enterable isTabbable="false" >
-        <enterReferenceNode node="exitPoint"/>
+        <enterReferenceNode node="enterPoint"/>
         <exitPoint node="exitPoint"/>
         <cameras>
             <camera node="camera" rotatable="true" rotateNode="cameraRot" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="4" transMax="40"/>
@@ -843,6 +848,7 @@
         <i3dMapping id="exactFillRootNode" node="0>0|4|0"/>
         <i3dMapping id="camera" node="0>2|1|0"/>
         <i3dMapping id="exitPoint" node="0>2|0"/>
+        <i3dMapping id="enterPoint" node="0>2|3"/>
         <i3dMapping id="protectionPlateHalf" node="0>0|3|1|0"/>
         <i3dMapping id="protectionPlateHalfPainted" node="0>0|3|1|1"/>
         <i3dMapping id="screwDecals02" node="0>0|3|1"/>

@@ -4,7 +4,7 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="function_turboKipper"		text="Long dolly for any semi trailer, to hitch them to a tractor or to make it possible to make a road train."/>
-        <text name="name_turboKipper" 			text="Turbo Kipper"/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
         <text name="name_turboTrailers" 		text="Turbo Trailers"/>
         <text name="configuration_TwinRadial" 	text="Twin Radial"/>
         <text name="configuration_CARGOXBIB" 	text="Cargo"/>
