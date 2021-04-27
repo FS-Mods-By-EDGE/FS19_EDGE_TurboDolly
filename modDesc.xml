@@ -149,7 +149,6 @@ o Contatta EDGEPureGaming su Facebook.]]></it>
             <specialization name="enterable"/>
             <specialization name="drivable"/>
             <specialization name="honk"/>
-            <specialization name="fillUnit"/>
         </type>
     </vehicleTypes>
     <l10n filenamePrefix="modDesc/modDesc_l10n"/>
